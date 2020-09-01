@@ -95,6 +95,10 @@ h5{
     padding-left: 2.5vw;
     padding-right: 2.5vw;
   }
+  .side-content-grid{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
 }
 @media only screen and (max-width: 500px) {
 
