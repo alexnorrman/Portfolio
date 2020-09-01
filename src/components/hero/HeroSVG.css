@@ -1,0 +1,127 @@
+#hero-text{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);*/
+  width:auto;
+  display:inline-block;
+}
+#logo{
+  animation: fill-logo 0.5s ease forwards 3s;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+#logo path:nth-child(1){
+  stroke-dasharray: 368.6400146484375;
+  stroke-dashoffset: 368.6400146484375;
+  animation: line-logo 1.5s ease forwards;
+}
+#logo path:nth-child(2){
+  stroke-dasharray: 145.60523986816406;
+  stroke-dashoffset: 145.60523986816406;
+  animation: line-logo 1.5s ease forwards 0.2s;
+}
+#logo path:nth-child(3){
+  stroke-dasharray: 61.17975997924805;
+  stroke-dashoffset: 61.17975997924805;
+  animation: line-logo 1.5s ease forwards 0.4s;
+}
+#logo path:nth-child(4){
+  stroke-dasharray: 148.6080322265625;
+  stroke-dashoffset: 148.6080322265625;
+  animation: line-logo 1.5s ease forwards 0.6s;
+}
+#logo path:nth-child(5){
+  stroke-dasharray: 61.14250946044922;
+  stroke-dashoffset: 61.14250946044922;
+  animation: line-logo 1.5s ease forwards 0.8s;
+}
+#logo path:nth-child(6){
+  stroke-dasharray: 433.61114501953125;
+  stroke-dashoffset: 433.61114501953125;
+  animation: line-logo 1.5s ease forwards 1.0s;
+}
+#logo path:nth-child(7){
+  stroke-dasharray: 357.7920837402344;
+  stroke-dashoffset: 357.7920837402344;
+  animation: line-logo 1.5s ease forwards 1.2s;
+}
+#logo path:nth-child(8){
+  stroke-dasharray: 156.09603881835938;
+  stroke-dashoffset: 156.09603881835938;
+  animation: line-logo 1.5s ease forwards 1.4s;
+}
+#logo path:nth-child(9){
+  stroke-dasharray: 330.03857421875;
+  stroke-dashoffset: 330.03857421875;
+  animation: line-logo 1.5s ease forwards 1.6s;
+}
+#logo path:nth-child(10){
+  stroke-dasharray: 261.2541809082031;
+  stroke-dashoffset: 261.2541809082031;
+  animation: line-logo 1.5s ease forwards 1.8s;
+}
+
+
+
+
+#hero-text p{
+  position: absolute;
+  padding: 0;
+  font-size: 28px;
+  color:whitesmoke;
+  animation: fill-text 0.5s ease forwards 3s;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+#hero-arrow{
+  position: absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%) ;
+  width:auto;
+  display:inline-block;
+  animation: arrow-slide 1s ease-in-out infinite;
+}
+#hero-arrow path{
+  animation: fill-logo 0.5s ease forwards 3s;
+}
+
+@keyframes line-logo{
+  to{
+      stroke-dashoffset: 0;
+  }
+}
+@keyframes fill-logo{
+  from{
+      fill:transparent;
+  }
+  to{
+      fill:black;
+  }
+}
+@keyframes fill-text{
+  from{
+      color:transparent;
+      background-color: transparent;
+  }
+  to{
+      color:whitesmoke;
+      background-color: black;
+  }
+}
+
+@keyframes arrow-slide {
+  0%,
+  100% {
+    transform: translate(-50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, -60%);
+  }
+}
