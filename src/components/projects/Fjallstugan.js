@@ -72,7 +72,7 @@ const Fjallstugan = () => {
         The project can be found at my github page:<br /><br />
 
                             <a style={{padding:"0px"}} target="_blank" href="https://github.com/alexnorrman/fjallstugan" rel="noopener noreferrer" className="social">
-                        <FontAwesomeIcon style={{verticalAlign:"middle"}} icon={faGithub} size="2x" /> https://github.com/alexnorrman/fjallstugan
+                        <FontAwesomeIcon style={{verticalAlign:"middle"}} icon={faGithub} size="2x" /> alexnorrman/fjallstugan
                         </a>
                         
                         </p>
@@ -133,7 +133,7 @@ const Fjallstugan = () => {
                         <p>
                         I made this application by myself during the summer of 2019.<br />
                         </p>
-                        I have also used it on several hikes.
+                        <p>I have also used it on several hikes.</p>
                         <div style={{margin:"auto"}}>
                             <p></p>
                             <img style={{width:"100%"}} src={live} alt={"live"}></img>

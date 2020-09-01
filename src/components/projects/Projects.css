@@ -101,7 +101,13 @@ li {
     max-height: 90vh;
     margin: auto;
 }
-
+@media only screen and (max-width: 450px){
+    .newImg, .colImg{
+        max-width: 90vw;
+        max-height: 90vh;
+        margin: auto;
+    }
+}
 @media only screen and (max-width: 900px) {
     #fjallstugan .newImg,
     #about .newImg{

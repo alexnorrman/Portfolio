@@ -29,9 +29,9 @@ const About = () => {
             <h1 className="contentWidth">About me</h1>
             <div className="content contentWidth">
                 <div className="">
-                    <p>My name is Alex. I'm an UX designer and fullstack developer born in Östersund, but currently living in Stockholm.</p>
+                    <p>My name is Alex. I'm an UX designer and fullstack developer born in Östersund, currently living in Stockholm.</p>
                     
-                    <p>I love designing and building stuff! <br />I have knowledge of the entire design process. The whole way from identifying problems/needs to a final tested prototype. <br /> But hey! I also have good knowledge of Front- and Back-End Development!</p>
+                    <p>I love designing and building stuff! <br />I have knowledge of the entire design process. The whole way from identifying problems/needs to a final tested prototype. <br /> But hey! I also have good knowledge of Front- and Back-End development!</p>
                     <p>When I'm not creating stuff, I love being out in the nature. Where hiking and scuba diving are close to my heart</p>
                     <p>Please, do not hesitate to contact me! </p>
                     <div className="side-content-grid">
@@ -94,7 +94,7 @@ const About = () => {
                             <p>Sogang University, Seoul</p>
                         </div>
                         <div>
-                            <p style={{fontWeight:"bold"}}>Oct 2017 - May 2018</p>
+                            <p style={{fontWeight:"bold"}}>2007 - 2010</p>
                         </div>
                         <div>
                             <p style={{fontWeight:"bold"}}>Technology Program in Computer Engineering &amp; Projects</p>

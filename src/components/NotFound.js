@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NotFound = () => (
-    <section id="about">
+    <section id="page-not-found">
         <h1>404, page not found!</h1>
     </section>
     

@@ -9,7 +9,7 @@ body{
   background-color: whitesmoke;
 }
 
-.hero, #aboutHeader{
+.hero, #page-not-found, #aboutHeader{
   position: relative;
   top:0;
   left: 0;
@@ -17,6 +17,15 @@ body{
   width: 100%;
   align-items: center;
   background-color: whitesmoke;
+}
+#page-not-found h1{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);*/
+  width:auto;
+  display:inline-block;
 }
 
 h1, h2, h3, h4{
@@ -45,11 +54,6 @@ h4{
 h5{
   letter-spacing: 4px;
   font-size: 16px;
-}
-@media only screen and (max-width: 600px) {
-  h1, h2, h3, h4{
-    text-align: center;
-  }
 }
 
 #projects, #otherProjects{
@@ -84,21 +88,25 @@ h5{
   }
 }
 @media only screen and (max-width: 1000px) {
-  .App{
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-  }
   .contentWidth{
     width: 100%;
+  }
+  p, h1, h2, h3, h4, h5{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
   }
 }
 @media only screen and (max-width: 500px) {
-  .App{
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-  }
+
   .contentWidth{
     width: 100%;
+  }
+  h1, h2, h3, h4{
+    text-align: center;
+  }
+  p{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
   }
   h1{
     letter-spacing: 7px;
@@ -132,7 +140,12 @@ h5{
   width: 100%;
   height: 100%;
   background: whitesmoke;
-  opacity: 80%;
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
 }
 .item img{
   width: 100%;
